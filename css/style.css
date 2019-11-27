@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Anton&display=swap");
+#text1 {
+  margin: 0 0.0em;
+  overflow: hidden;
+  font: normal normal normal 2.0em/1.5 'Open Sans Light', sans-serif;
+  color: #ffffff;
+  background-color: #1f1c1c;
+}
+
+.faq {
+  background: #1f1c1c;
+  padding: 100px 0;
+  width: 100%;
+  border: 1px solid #222;
+  text-align: center;
+}
+
+.faqitem .header {
+  padding: 15px;
+  background: #1f1c1c;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.faqitem .header h4 {
+  margin: 0 auto;
+}
+
+.faqitem .header .fa.fa-minus {
+  display: none;
+}
+
+.faqitem.jquery-accordion-active .fa.fa-minus {
+  display: block;
+}
+
+.faqitem.jquery-accordion-active .fa.fa-plus {
+  display: none;
+}
+
+.faqitem .content {
+  color: white;
+  padding: 15px;
+  display: none;
+}
+
+.custom_lightbox {
+  padding: 100px;
+  background: #333 !important;
+}
+
+.loader-button {
+  padding: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #1f1c1c;
+}
+
+.loader-button .btn {
+  padding: 1.5rem 2.5rem;
+}
+/*# sourceMappingURL=style.css.map */
