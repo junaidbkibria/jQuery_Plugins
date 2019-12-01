@@ -169,9 +169,11 @@
     </div>
       <!-- lightbox -->
       <!-- button -->
-      <div class="loader-button">
-          <a class="btn btn-danger btn-lg"><i class="fas fa-address-card"></i> Click Me</a>
+      <div  class="loader-button">
+          <a href="page2.html" class="btn btn-danger btn-lg custom-b d-block"><i class="fas fa-address-card"></i> Click Me</a> 
+          <a href="page2.html" class="btn btn-primary badge nxt" style="font-size: 30px;">next page</a>
       </div>
+      
       <!-- button -->
 
     
@@ -184,8 +186,8 @@
    
     
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <!-- <script src="js/jquery-3.4.1.min.js"></script> -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script> -->
    <!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.typorize.min.js"></script>
@@ -287,10 +289,10 @@
    
     // lightbox
     // button
-    $("a").on("click", function(ev) {
+    $(".custom-b").on("click", function(ev) {
   ev.preventDefault();
   $(this).startLoading();
-  setTimeout(function(){$("a").stopLoading(); }, 3000);
+  setTimeout(function(){$(".custom-b").stopLoading(); }, 3000);
 
 });
     // button
